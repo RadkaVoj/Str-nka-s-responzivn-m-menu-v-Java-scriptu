@@ -1,0 +1,81 @@
+/*General*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/*NAVIGATION SECTION*/
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #15304c;
+    color: gold;
+    height: 70px;
+     ;
+}
+.logo{
+    flex-grow: 1;
+    }
+
+ .logo img {
+width: 200px;
+margin-left: 20px;
+    }
+nav {margin-right: 30px;}
+
+nav li { 
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: gold;
+    text-decoration: none;
+     
+}
+.menu-icon {
+    display:none;
+    margin-right: 30px;
+}
+
+/* WELCOME SECTION*/
+.welcome {
+    background: url("img/background.webp");
+    min-height: calc(100vh - 70px);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[]
